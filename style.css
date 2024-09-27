@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+   
+}
+header .topnav{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+header .top1{
+    background-color: #F5FBFF;
+    left: 10px;
+}
+
+header .topnav i{
+    padding: 5px;
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+    
+}
+.topnav .sidenav{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-left: 70%;
+    font-size: 12px;
+   
+}
+.topnav{
+    margin-left: 70px;
+}
+.topnav  p{
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.topnav .sidenav i{
+    padding-left: 30px;
+    padding-right: 10px;
+    position: relative;
+}
+.topnav i:hover{
+    color: #8293ff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin: 0 auto;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+   
+}
+ .navbar .nav ul{
+    display: flex;
+    padding: 100px;
+    margin-left: 100px;
+}
+.navbar .nav ul li{
+    padding: 10px;
+    list-style: none;
+
+}
+.navbar button{
+    padding: 13px 30px;
+    cursor: pointer;
+    background-color: #8293ff;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+.navbar .nav ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.65);
+    font-weight: bold;
+}
+.navbar .nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+.navbar button:hover{
+    color: #8293ff;
+    background-color: #fff;
+    border: 0.5px solid #8293ff;
+    transition: all 0.3s ease;
+}
+.section1{
+    width: 100%;
+    height: 600px;
+   margin-top: 30px;
+  
+   background-image: url(bg1.webp);
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.section1 .bg1{
+   
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.bg1 .care1{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+    
+.section1 span{
+    font-size: 70px;
+    color: black;
+    font-weight: 900;
+}
+.section1 h1{
+    font-size: 70px;
+    font-weight: 5;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.section1 p{
+    color: rgba(0,0,0,0.6);
+    padding: 10px 0px;
+}
+.section1 button{
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #8293ff;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.section1 button:hover{
+    color: #8293ff;
+    background-color: #fff;
+    border: 0.5px solid #8293ff;
+    transition: all 0.3s ease;
+}
+.section2{
+    width: 100%;
+    height: 300px;
+    background-color: #8293ff;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 70px;
+   color: white;
+}
+.section2 i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.section2 h4{
+    font-size: 30px;
+    font-weight: 200;
+}
+.section2 p{
+    text-decoration: bold;
+}
+.section2 button{
+    padding: 15px 30px;
+    background-color: skyblue;
+    color: white;
+    text-decoration: bold;
+    font-size: 18px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+}
+.section2 button:hover{
+    background-color: #fff;
+    color: #8293ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.section2 .service1 button:hover{
+    background-color: #fff;
+    color: #8293ff;
+    cursor: pointer;
+}
+.section2 .services1 button:hover{
+    background-color: #fff;
+    color: #8293ff;
+    cursor: pointer;
+}
+.section2 .services1 button{
+    color: white;
+    background-color: rgb(92, 195, 236);
+    text-decoration: bold;
+    font-size: 18px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+}
+.section2 .services{
+    background-color: skyblue;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: -70px;
+    text-align: center;
+    height: 300px;
+}
+.section2 .services1{
+    background-color: rgb(92, 195, 236);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    height: 300px;
+}
+.section2 .services2{
+    background-color:  skyblue;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    text-align: center;
+    margin-right: -70px;
+    height: 300px;
+}
+.section3{
+    display: flex;
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.section3 .img1{
+    width: 50%;
+    height: 50%;
+    padding-left: 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+    background-image: url(welcome2.webp);
+    background-repeat: no-repeat;
+}
+.img1 img{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.section3 .info{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 130px;
+}
+.info h2{
+    font-size: 19px;
+    line-height: 100px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.info h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+   
+}
+.info p{
+    color: rgba(0,0,0,0.6);
+    width: 85%;
+    line-height: 30px;
+}
+.info ul{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.info ul li{
+    list-style: none;
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+    line-height: 30px;
+}
+.info i{
+    border: 1px solid #8293ff;
+    border-radius: 50%;
+    color: #8293ff;
+    margin-right: 10px;
+}
+.info button{
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: 0.5px solid #8293ff;
+    background-color: #fff;
+    color: #4958bd;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.info button:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.section4{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+   background-image: url(2.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.section4 .text1{
+    width: 100%;
+    height: 600px; /* Set the height to 600px */
+    text-align: center; /* Center the text horizontally */
+    display: flex; /* Use flexbox for vertical centering */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+.text1 h4{
+    margin-top: 10px;
+}
+.text1 p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.section4 hr{
+    margin-top: 80px;
+}
+.section5{
+    width: 100%;
+    background-color: hsl(239, 95%, 92%);
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+.section5 p{
+    text-align: center;
+}
+.imgarea1{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 50px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.imgarea1 img{
+    height: 200px;
+}
+.departments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+}
+.imgarea1 a{
+    text-decoration: none;
+    color: #3e57fd;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.imgarea1 a:hover{
+    color: black;
+    transition: all 0.3s ease-in;
+    text-decoration: underline;
+}
+
+.imgarea1 h4{
+    line-height: 4rem;
+    text-align: left;
+    font-size: 22px;
+    font-family: arial;
+}
+.imgarea1 p{
+    color: rgba(0,0,0,0.6);
+    line-height: 1rem;
+}
+.dept{
+    text-align: center;
+}
+.dept h1{
+    line-height: 6rem;
+    font-size: 40px;
+   
+}
+.dept p{
+    color: rgba(0,0,0,0.5);
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.section6{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    background-color: #d3d5e7;
+}
+.section6 h1{
+    padding: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.section6 h1:hover{
+    cursor: pointer;
+    color: #4557cd;
+    transition: all 0.2s ease-in-out;
+}
+.section7{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section7 .care1{
+    width: 50%;
+    line-height: 2rem;
+}
+.care1 p{
+    width: 80%;
+    color: rgba(0,0,0,0.6);
+}
+.care1 h4{
+    font-size: 20px;
+    line-height: 3rem;
+    font-family: arial;
+}
+.care1 i{
+    font-size: 45px;
+    color: #8293ff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.careimg{
+    margin-right: 20px;
+}
+.section8{
+    width: 100%;
+    background-color: hsl(239, 95%, 92%);
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    padding: 40px 20px;
+    margin-top: 60px;
+    position: relative;
+    border-radius: 10px;
+}
+.dc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+        width: 100%;
+}
+.doctors img{
+    height: 210px;
+}
+.doctors{
+    width: 220px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+    line-height: 20px;
+    text-align: left;
+    font-family: arial;
+}
+.experts h1{
+    text-align: left;
+    margin-left: 80px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.doctors:hover{
+    background-color: #8293ff;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+}
+.doctors p{
+    font-size: 13px;
+}
+.section9{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    line-height: 2rem;
+    background: linear-gradient(to right, rgb(24, 84, 99), rgb(133, 196, 223));
+    color: white;
+}
+.section9 .contacts{
+    width: 50%;
+    text-align: center;
+    margin: 100px auto;
+}
+.section9 .contacts1{
+    width: 50%;
+    text-align: center;
+}
+.section9  button{
+    padding: 10px ;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    font-size: 15px;
+    border: 0.5px solid white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.section9 button:hover{
+    background-color: #fff;
+    color: #8293ff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    margin-top: 0px;
+    color: white;
+}
+.footerd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+        width: 100%;
+}
+.footer1{
+    width: 220px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 20px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    line-height: 2rem;
+    font-size: 13px;
+}
+footer a:hover{
+    color: #8293ff;
+}
+.footer1 h3{
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+footer ul li{
+    list-style: none;
+}
+.footer3{
+    width: 350px;
+    
+}
+footer img{
+    margin-bottom: 20px;
+}
+footer p{
+    margin-bottom: 20px;
+}
+footer address{
+    line-height: 2rem;
+}
+.footer3 i{
+    padding: 10px;
+    background-color: rgba(179, 155, 155, 0.15);
+    border-radius: 5px;
+    
+}
+.footer3 i:hover{
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.footer2{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.footer2 p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
